@@ -1,4 +1,4 @@
-package com.chtuqu.hfdp.ch4_factory.simple_factory.dto;
+package com.chtuqu.hfdp.ch4_factory.simple_factory.pizza;
 
 public abstract class Pizza {
     public void prepare() {

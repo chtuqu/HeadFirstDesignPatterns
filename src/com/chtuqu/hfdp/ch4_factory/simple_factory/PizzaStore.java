@@ -1,6 +1,6 @@
 package com.chtuqu.hfdp.ch4_factory.simple_factory;
 
-import com.chtuqu.hfdp.ch4_factory.simple_factory.dto.Pizza;
+import com.chtuqu.hfdp.ch4_factory.simple_factory.pizza.Pizza;
 
 public class PizzaStore {
 
@@ -10,7 +10,7 @@ public class PizzaStore {
         this.factory = factory;
     }
 
-    Pizza orderPizza(String type) {
+    public Pizza orderPizza(String type) {
         Pizza pizza;
 
         pizza = factory.createPizza(type);
