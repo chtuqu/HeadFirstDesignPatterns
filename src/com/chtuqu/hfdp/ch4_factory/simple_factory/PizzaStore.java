@@ -1,6 +1,6 @@
 package com.chtuqu.hfdp.ch4_factory.simple_factory;
 
-import com.chtuqu.hfdp.ch4_factory.simple_factory.pizza.Pizza;
+import com.chtuqu.hfdp.ch4_factory.simple_factory.dto.Pizza;
 
 public class PizzaStore {
 

@@ -1,7 +1,7 @@
 package com.chtuqu.hfdp.ch4_factory.factory_method;
 
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.Pizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.PizzaType;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.Pizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.PizzaType;
 import com.chtuqu.hfdp.ch4_factory.factory_method.store.PizzaStore;
 import com.chtuqu.hfdp.ch4_factory.factory_method.store.impl.ChicagoStylePizzaStore;
 import com.chtuqu.hfdp.ch4_factory.factory_method.store.impl.NYStylePizzaStore;

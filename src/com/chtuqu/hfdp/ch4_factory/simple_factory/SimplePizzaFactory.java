@@ -1,9 +1,9 @@
 package com.chtuqu.hfdp.ch4_factory.simple_factory;
 
-import com.chtuqu.hfdp.ch4_factory.simple_factory.pizza.Pizza;
-import com.chtuqu.hfdp.ch4_factory.simple_factory.pizza.impl.CheesePizza;
-import com.chtuqu.hfdp.ch4_factory.simple_factory.pizza.impl.GreekPizza;
-import com.chtuqu.hfdp.ch4_factory.simple_factory.pizza.impl.PepperoniPizza;
+import com.chtuqu.hfdp.ch4_factory.simple_factory.dto.Pizza;
+import com.chtuqu.hfdp.ch4_factory.simple_factory.dto.impl.CheesePizza;
+import com.chtuqu.hfdp.ch4_factory.simple_factory.dto.impl.GreekPizza;
+import com.chtuqu.hfdp.ch4_factory.simple_factory.dto.impl.PepperoniPizza;
 
 public class SimplePizzaFactory {
     public Pizza createPizza(String type) {

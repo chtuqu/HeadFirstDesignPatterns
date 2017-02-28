@@ -1,11 +1,11 @@
 package com.chtuqu.hfdp.ch4_factory.factory_method.store.impl;
 
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.Pizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.PizzaType;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.chicago.ChicagoStyleCheesePizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.chicago.ChicagoStyleClamPizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.chicago.ChicagoStylePepperoniPizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.chicago.ChicagoStyleVeggiePizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.Pizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.PizzaType;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.chicago.ChicagoStyleCheesePizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.chicago.ChicagoStyleClamPizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.chicago.ChicagoStylePepperoniPizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.chicago.ChicagoStyleVeggiePizza;
 import com.chtuqu.hfdp.ch4_factory.factory_method.store.PizzaStore;
 
 public class ChicagoStylePizzaStore extends PizzaStore {

@@ -1,6 +1,6 @@
-package com.chtuqu.hfdp.ch4_factory.factory_method.store;
+package com.chtuqu.hfdp.ch4_factory.abstract_factory.store;
 
-import com.chtuqu.hfdp.ch4_factory.factory_method.dto.Pizza;
+import com.chtuqu.hfdp.ch4_factory.abstract_factory.dto.pizza.Pizza;
 import com.chtuqu.hfdp.ch4_factory.factory_method.dto.PizzaType;
 
 public abstract class PizzaStore {
@@ -19,4 +19,5 @@ public abstract class PizzaStore {
     }
 
     protected abstract Pizza createPizza(PizzaType type);
+
 }

@@ -1,11 +1,11 @@
 package com.chtuqu.hfdp.ch4_factory.factory_method.store.impl;
 
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.Pizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.PizzaType;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.ny.NYStyleCheesePizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.ny.NYStyleClamPizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.ny.NYStylePepperoniPizza;
-import com.chtuqu.hfdp.ch4_factory.factory_method.pizza.impl.ny.NYStyleVeggiePizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.Pizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.PizzaType;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.ny.NYStyleCheesePizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.ny.NYStyleClamPizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.ny.NYStylePepperoniPizza;
+import com.chtuqu.hfdp.ch4_factory.factory_method.dto.impl.ny.NYStyleVeggiePizza;
 import com.chtuqu.hfdp.ch4_factory.factory_method.store.PizzaStore;
 
 public class NYStylePizzaStore extends PizzaStore {
